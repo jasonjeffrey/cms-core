@@ -13,5 +13,8 @@
   "bugs": {
     "url": "https://github.com/jasonjeffrey/cms-core/issues"
   },
-  "homepage": "https://github.com/jasonjeffrey/cms-core"
+  "homepage": "https://github.com/jasonjeffrey/cms-core",
+  "dependencies": {
+    "express": "^4.13.0"
+  }
 }
