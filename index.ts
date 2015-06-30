@@ -4,7 +4,7 @@
 import http = require('http');
 import express = require('express');
 
-export class Server {
+class Server {
   static startServer():void {
     var server: http.Server,
         app = express();
@@ -14,3 +14,5 @@ export class Server {
     });
   }
 }
+
+export = Server;
