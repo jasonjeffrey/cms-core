@@ -1,7 +1,3 @@
-/// <reference path="../index.ts" />
+import core = require('../index');
 
-import Server = require('../index');
-
-var server = new Server();
-
-server.start();
+core.startWebServer();
