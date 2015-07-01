@@ -2,4 +2,6 @@
 
 import Server = require('../index');
 
-Server.startServer();
+var server = new Server();
+
+server.start();
