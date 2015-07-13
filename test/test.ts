@@ -1,3 +1,5 @@
-import core = require('../index');
+import Core = require('../index');
 
-core.startWebServer();
+var core = new Core();
+
+core.start();

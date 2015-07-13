@@ -6,7 +6,7 @@ import express = require('express');
 
 class Server {
   public start():void {
-    var server: http.Server,
+    var server:http.Server,
         app = express();
 
     server = app.listen(8080, function () {
