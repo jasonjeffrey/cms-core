@@ -1,0 +1,1 @@
+{"version":3,"file":"Database.js","sourceRoot":"","sources":["Database.ts"],"names":["DBConnection","DBConnection.constructor","DBConnection.openConnection"],"mappings":"AAIA;IAAAA;IAIAC,CAACA;IAHcD,2BAAcA,GAA5BA;QACCE,OAAOA,CAACA,GAAGA,CAACA,MAAMA,CAACA,CAACA;IACrBA,CAACA;IACFF,mBAACA;AAADA,CAACA,AAJD,IAIC;AAJY,oBAAY,eAIxB,CAAA"}

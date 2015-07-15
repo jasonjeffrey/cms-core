@@ -1,10 +1,9 @@
-module Database {
+export interface IDatabase {
+	connect();
+}
 
-  export interface IDatabase {
-      connect();
-  }
-
-  export function getInstance() {
-
-  }
+export class DBConnection {
+	public static openConnection():void {
+		console.log('test');
+	}
 }

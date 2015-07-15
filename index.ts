@@ -1,15 +1,16 @@
+import Database = require('./libs/Database');
 import Server = require('./libs/Server');
-import Database = require('./libs/Databse');
-
 
 class Core {
-  public start():void {
-    var server:Server = new Server(),
-        database:Database = new Database();
-
-    datbase.connect();
-    server.start();
-  }
+    public static Database = Database; 
+    public static Server = Server;
+    
+    public start():void {
+        var server =  new Server();
+        
+        server.start();
+    }
 }
 
 export = Core;
+
