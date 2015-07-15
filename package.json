@@ -15,6 +15,7 @@
   },
   "homepage": "https://github.com/jasonjeffrey/cms-core",
   "dependencies": {
+    "dotenv": "^1.2.0",
     "express": "^4.13.0"
   }
 }
