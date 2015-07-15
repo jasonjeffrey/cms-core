@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "ts-pkg-installer"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jasonjeffrey/cms-core.git"
@@ -16,6 +18,7 @@
   "homepage": "https://github.com/jasonjeffrey/cms-core",
   "dependencies": {
     "dotenv": "^1.2.0",
-    "express": "^4.13.0"
+    "express": "^4.13.0",
+    "ts-pkg-installer": "^1.0.13"
   }
 }

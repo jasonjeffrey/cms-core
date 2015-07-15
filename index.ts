@@ -7,7 +7,6 @@ interface CoreConfiguration {
 }
 
 class Core {
-    public static Server = Server;
     private databaseInstance: Database.IDatabase;
     private coreConfiguration: CoreConfiguration;
     
